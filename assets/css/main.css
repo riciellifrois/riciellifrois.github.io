@@ -1119,20 +1119,7 @@
 						line-height: 2.25em;
 					}
 
-			body.header-visible #main {
-				-moz-transform: translateX(275px);
-				-webkit-transform: translateX(275px);
-				-ms-transform: translateX(275px);
-				transform: translateX(275px);
-				transform: scale(5);
-			}
 
-			body.header-visible #headerToggle {
-				-moz-transform: translateX(275px);
-				-webkit-transform: translateX(275px);
-				-ms-transform: translateX(275px);
-				transform: translateX(275px);
-			}
 
 			body.header-visible #header {
 				-moz-transform: translateX(0);
