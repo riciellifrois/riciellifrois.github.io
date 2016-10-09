@@ -2,9 +2,10 @@
 function configuraMenuManual(){
   if ($(window).width() <= 960) {
     $("LINK[href='assets/css/jquery.mmenu.widescreen.css']").remove();
-    $("#navManual").mmenu({ extensions: ["theme-dark","border-none"],
+    $("#navManual").mmenu({ extensions: ["theme-dark","border-none","pagedim-black"],
          "offCanvas": {
-            "position": "right"
+            "position": "right",
+            "zposition" : "front"
          }
          
       });
