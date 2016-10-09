@@ -45,13 +45,7 @@ function configuraPosts(){
   }  
 
 jQuery(document).ready(function( $ ) {
-  if ($("#header").is(':visible')) {
-      
-      $("#treeManual").show();
-  }
-  else {
-      $("#treeManual").hide();  
-  }
+  
   configuraMenuManual();
   configuraFooter();
   configuraPosts();
