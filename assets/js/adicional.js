@@ -4,8 +4,7 @@ function configuraMenuManual(){
     $("LINK[href='assets/css/jquery.mmenu.widescreen.css']").remove();
     $("#navManual").mmenu({ extensions: ["theme-dark","border-none"],
          "offCanvas": {
-            "position": "right",
-            "zposition": "next"
+            "position": "right"
          }
          
       });
