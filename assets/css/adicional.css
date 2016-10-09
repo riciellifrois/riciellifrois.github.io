@@ -320,12 +320,6 @@ table ,td , tr , section{
         color: rgb(235, 237, 230);
         font-size: 30px;
     }
-
-    .colunas {
-        display: list-item;
-        margin: 10px 0px 0px 0px ;        
-      
-    }
     #formatacao {
         width: 75px;                
         background-image: url("/images/formata2.png");
@@ -363,12 +357,6 @@ table ,td , tr , section{
         color: rgb(235, 237, 230);
         font-size: 22px;
     }
-    
-    .colunas {
-        display: list-item;
-        margin: 10px 0px 0px 0px ;        
-      
-    }
    .postes .texto h3 {
 
         font-size: 14px;
@@ -399,5 +387,34 @@ table ,td , tr , section{
 
 }
 
+@media screen and (max-width: 960px) {
+    .colunas {
+        display: list-item;
+        margin: 10px 0px 0px 0px ;        
+          
+    }
+    @media screen and (-webkit-min-device-pixel-ratio:0) {
+      .colunas {
+            display: list-item;
+            margin: -30px 0px 0px 0px ;        
+          
+        }
+    }
 
+}
+@media screen and (max-width: 400px) {
+    .colunas {
+        display: list-item;
+        margin: 10px 0px 0px 0px ;        
+          
+        }
+    @media screen and (-webkit-min-device-pixel-ratio:0) {
+      .colunas {
+            display: list-item;
+            margin: -30px 0px 0px 0px ;        
+          
+        }
+    }
+
+}    
   
