@@ -323,7 +323,7 @@ table ,td , tr , section{
 
     .colunas {
         display: list-item;
-        margin: -30px 0px 0px 0px ;        
+        margin: 10px 0px 0px 0px ;        
       
     }
     #formatacao {
@@ -366,7 +366,7 @@ table ,td , tr , section{
     
     .colunas {
         display: list-item;
-        margin: -30px 0px 0px 0px ;        
+        margin: 10px 0px 0px 0px ;        
       
     }
    .postes .texto h3 {
